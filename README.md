@@ -22,20 +22,21 @@ This Flask API provides an endpoint for uploading files securely. It supports mu
 
 First, clone the repository and navigate to the project directory:
 
-git clone [https://github.com/andishmandsaadi/upload-api-with-flask](https://github.com/andishmandsaadi/upload-api-with-flask)
-cd upload-api-with-flask
+`git clone [https://github.com/andishmandsaadi/upload-api-with-flask](https://github.com/andishmandsaadi/upload-api-with-flask)`
+
+`cd upload-api-with-flask`
 
 
 Install the required Python packages:
 
-pip install Flask Werkzeug
+`pip install Flask Werkzeug`
 
 
 ### Running the Application
 
 To run the application, execute:
 
-python uploadapi.py
+`python uploadapi.py`
 
 
 The API server will start, and you can access it via `http://localhost:8989`.
@@ -46,7 +47,7 @@ To upload a file, send a POST request to `/upload` with the file included in the
 
 Example using `curl`:
 
-curl -X POST -F "file=@path/to/your/file.jpg" http://localhost:8989/upload
+`curl -X POST -F "file=@path/to/your/file.jpg" http://localhost:8989/upload`
 
 
 ### Responses
